@@ -1,0 +1,12 @@
+C:\Users\Hisham\Desktop\vRedis\vRedis.Tests\bin\Debug\vRedis.Tests.dll
+C:\Users\Hisham\Desktop\vRedis\vRedis.Tests\bin\Debug\vRedis.Tests.pdb
+C:\Users\Hisham\Desktop\vRedis\vRedis.Tests\bin\Debug\vRedis.Tests.xml
+C:\Users\Hisham\Desktop\vRedis\vRedis.Tests\bin\Debug\vRedis.dll
+C:\Users\Hisham\Desktop\vRedis\vRedis.Tests\bin\Debug\vRedis.pdb
+C:\Users\Hisham\Desktop\vRedis\vRedis.Tests\bin\Debug\vRedis.xml
+C:\Users\Hisham\Desktop\vRedis\vRedis.Tests\obj\Debug\vRedis.Tests.vbprojResolveAssemblyReference.cache
+C:\Users\Hisham\Desktop\vRedis\vRedis.Tests\obj\Debug\vRedis.Tests.Resources.resources
+C:\Users\Hisham\Desktop\vRedis\vRedis.Tests\obj\Debug\vRedis.Tests.vbproj.GenerateResource.Cache
+C:\Users\Hisham\Desktop\vRedis\vRedis.Tests\obj\Debug\vRedis.Tests.dll
+C:\Users\Hisham\Desktop\vRedis\vRedis.Tests\obj\Debug\vRedis.Tests.xml
+C:\Users\Hisham\Desktop\vRedis\vRedis.Tests\obj\Debug\vRedis.Tests.pdb
