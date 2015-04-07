@@ -30,8 +30,6 @@ Public Class RedisClient
             stream = client.GetStream()
         Catch ex As Exception
             Throw New RedisException("An existing connection was forcibly closed by remote host.")
-        Finally
-            client.Close()
         End Try
     End Sub
 
