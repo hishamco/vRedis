@@ -80,6 +80,15 @@
     <Import Include="Microsoft.VisualStudio.TestTools.UnitTesting" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AppendTests.vb" />
+    <Compile Include="PExpireAtTests.vb" />
+    <Compile Include="ExpireAtTests.vb" />
+    <Compile Include="PExpireTests.vb" />
+    <Compile Include="ExpireTests.vb" />
+    <Compile Include="ExistsTests.vb" />
+    <Compile Include="DelTests.vb" />
+    <Compile Include="DumpTests.vb" />
+    <Compile Include="TimeTests.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>

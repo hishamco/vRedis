@@ -62,10 +62,19 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Commands\AppendCommand.vb" />
+    <Compile Include="Commands\DelCommand.vb" />
+    <Compile Include="Commands\DumpCommand.vb" />
     <Compile Include="Commands\EchoCommand.vb" />
+    <Compile Include="Commands\ExistsCommand.vb" />
+    <Compile Include="Commands\PExpireAtCommand.vb" />
+    <Compile Include="Commands\ExpireAtCommand.vb" />
+    <Compile Include="Commands\PExpireCommand.vb" />
+    <Compile Include="Commands\ExpireCommand.vb" />
     <Compile Include="Commands\GetCommand.vb" />
     <Compile Include="Commands\PingCommand.vb" />
     <Compile Include="Commands\SetCommand.vb" />
+    <Compile Include="Commands\TimeCommand.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>

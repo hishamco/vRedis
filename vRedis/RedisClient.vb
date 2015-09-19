@@ -38,6 +38,21 @@ Public Class RedisClient
         Execute(command)
     End Sub
 
+    Public Sub Del(ParamArray keys() As String)
+        command = New DelCommand() With {.Keys = keys}
+        Execute(command)
+    End Sub
+
+    Public Function Dump(key As String) As Byte()
+        command = New DumpCommand() With {.Key = key}
+        Execute(command)
+        If IsNothing(reply.Value) Then
+            Return Nothing
+        Else
+            Return Encoding.UTF8.GetBytes(reply.Value)
+        End If
+    End Function
+
     Public Sub Echo(message As String)
         command = New EchoCommand() With {.Message = message}
         Execute(command)
@@ -49,11 +64,31 @@ Public Class RedisClient
         Return reply.Value
     End Function
 
+    Public Sub Expire(key As String, timeout As Integer)
+        command = New ExpireCommand() With {.Key = key, .Timeout = timeout}
+        Execute(command)
+    End Sub
+
+    Public Sub ExpireAt(key As String, ttl As DateTime)
+        command = New ExpireAtCommand() With {.Key = key, .TTL = (ttl - #1/1/1970#).TotalSeconds}
+        Execute(command)
+    End Sub
+
     Public Function [Get](key As String) As String
         command = New GetCommand() With {.Key = key}
         Execute(command)
         Return reply.Value
     End Function
+
+    Public Sub PExpire(key As String, timeout As Integer)
+        command = New PExpireCommand() With {.Key = key, .Timeout = timeout}
+        Execute(command)
+    End Sub
+
+    Public Sub PExpireAt(key As String, ttl As DateTime)
+        command = New PExpireAtCommand() With {.Key = key, .TTL = (ttl - #1/1/1970#).TotalMilliseconds}
+        Execute(command)
+    End Sub
 
     Public Sub Ping()
         command = New PingCommand()
