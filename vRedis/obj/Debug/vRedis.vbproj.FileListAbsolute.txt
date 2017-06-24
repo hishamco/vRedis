@@ -1,9 +1,0 @@
-C:\Users\Hisham\Desktop\vRedis\vRedis\bin\Debug\vRedis.dll
-C:\Users\Hisham\Desktop\vRedis\vRedis\bin\Debug\vRedis.pdb
-C:\Users\Hisham\Desktop\vRedis\vRedis\bin\Debug\vRedis.xml
-C:\Users\Hisham\Desktop\vRedis\vRedis\obj\Debug\vRedis.vbprojResolveAssemblyReference.cache
-C:\Users\Hisham\Desktop\vRedis\vRedis\obj\Debug\vRedis.Resources.resources
-C:\Users\Hisham\Desktop\vRedis\vRedis\obj\Debug\vRedis.vbproj.GenerateResource.Cache
-C:\Users\Hisham\Desktop\vRedis\vRedis\obj\Debug\vRedis.dll
-C:\Users\Hisham\Desktop\vRedis\vRedis\obj\Debug\vRedis.xml
-C:\Users\Hisham\Desktop\vRedis\vRedis\obj\Debug\vRedis.pdb
