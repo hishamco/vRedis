@@ -1,6 +1,7 @@
 # vRedis
 Redis client using VB.NET
-> **Supported Commands:**
+
+## Supported Commands:
 
 * ```APPEND``` append a value to a key
 * ```DEL``` delete a key
